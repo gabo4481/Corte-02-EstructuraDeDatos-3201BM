@@ -40,9 +40,7 @@ let condicion7 = inventario.splice(3,1)
 // Estado final del inventario
 
 console.log("Estado final del inventario")
-inventario.forEach(element => {
-    console.log(element)
-});
+console.log(inventario);
 
 console.log("--------")
 
@@ -51,6 +49,8 @@ console.log("Variables con los productos eliminados")
 console.log(condicion3);
 console.log(condicion4);
 console.log(condicion7[0]);
+
+
 
 
 
